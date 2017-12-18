@@ -1,0 +1,283 @@
+
+
+  /*-----Navegación----------------*/
+.navbar-default{
+ border: 2px solid white;
+}
+.navbar-header{
+  background: white;
+}
+.logo{
+  width: 90px;
+  margin:40px 0 20px 40px;
+}
+.navbar-toggle{
+  float: left;
+}
+.navbar-nav li {
+  margin: 20px;
+}
+.navbar-header{
+  background: white;
+}
+.navbar{
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav{
+    float: right;
+    }
+ .navbar {
+   border-radius: 0;
+   }
+
+}
+
+  /*-----SECTION 1----------------*/
+  /*-----background  taxi-----------------*/
+
+
+.set-1-cont{
+  background-image: url("../assets/images/taxi.jpg");
+  background-repeat: none;
+  background-position: 0;
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 350px;
+}
+  @media (min-width: 768px) {
+    .set-1-cont{
+    height: 650px;
+    }
+  }
+
+  /*-----box orange-----------------*/
+
+.boxing-orange{
+  color: white;
+  background:#f4b617 ;
+  float: right;
+  line-height: 0.6;
+  font-size:25px;
+  padding: 7.5% 0 7.5% 7.5%;
+  position: relative;
+  top:27.5%;
+  }
+.parr{
+  padding: 2.5% 0 6.5% 0;
+  }
+.logo-white{
+  height: 16px;
+  }
+.btn{
+  color:#3e3c39;
+  }
+.none-sm{
+  display: none;
+  }
+
+    @media (min-width: 768px) {
+
+      .none-xs{
+      display: none;
+      }
+      .none-sm{
+      display: inline-block;
+      }
+      .boxing-orange{
+      line-height: 0.8;
+      font-size:25px;
+      padding: 2.5% 0 2% 3.5%;
+      position: relative;
+      top:20%;
+      }
+      .parr2{
+      padding:0;
+      font-size: 20px;
+      }
+      .o-bien::after, .o-bien::before{
+      content: '';
+      display: inline-block;
+      border: 1px solid white;
+      width: 35.5%;
+      margin-bottom: 0.2em;
+      }
+      .o-bien{
+      font-size: 15px;
+      }
+     .lt{
+      margin: 20px;
+      }
+     .btn-bx-orange{
+      margin: 2.5% 0 3.5% 0;
+      font-size: 20px;
+      }
+
+  }
+
+    /*------SECTION 2----------------*/
+    .set-2{
+
+      color: white;
+       background: green;
+    }
+    .set-2-sx{
+      background: orange;
+    }
+    .cont-orange{
+      border: 1px solid white;
+      margin:25px 10px;
+      height: 30%;
+      text-align: center;
+    }
+    .newapp{
+      margin-top: 15%;
+    }
+    .iphone{
+      width: 60%;
+      padding-bottom: 10%;
+    }
+    .ll{
+      padding-left: 3%;
+    }
+    .text-set2{
+      display: none;
+    }
+  @media (min-width: 768px) {
+    .cont-orange{
+      border: 1px solid white;
+      margin:15px 10px 0 0;
+      height: 5%;
+      text-align: left;
+
+
+    }
+    .newapp{
+      display: none;
+    }
+    .iphone{
+      width: 30%;
+      margin: 20px;
+      padding-bottom:20px;
+    }
+    .ll{
+      display: none;
+    }
+    .text-set2{
+      font-size: 18px;
+      display: inline-block;
+      width: 40%;
+      margin: 5% 0 0 10%;;
+    }
+
+
+
+}
+
+    /*------SECTION 3----------------*/
+
+    .set-3{
+     color: white;
+     width: 100%;
+     height: 350px;
+     padding: 25px;
+     padding-top: 50px;
+     line-height: 1.2;
+
+    }
+    .set-3{
+      background-image: url("../assets/images/conduce.jpg");
+      background-repeat: none;
+      background-position:0;
+      background-size: cover;
+      background-position: center bottom;
+      filter:brightness(0.4);
+    }
+    .set-3-cont{
+      color: white;
+      width: 100%;
+      height: 350px;
+      padding: 25px;
+      padding-top: 50px;
+      line-height: 1.2;
+      position: absolute;
+      z-index: 700;
+    }
+    .btn-set3{
+      background: orange;
+      color: white;
+      border: none;
+    }
+
+
+
+    /*------SECTION 4----------------*/
+.set-4{
+  background: orange;
+  color: white;
+  height: 650px;
+}
+.cont-set4{
+  padding-top: 50px;
+  margin: 5px;
+}
+.divmap{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.icon-s4{
+  float: left;
+}
+.l-set4{
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 30px;
+
+  height: 30px;
+}
+.btn-set4{
+  text-align: center;
+  padding-top: 10px;
+}
+.map{
+  width: 80%;
+  height:13em;
+  margin: 2px;
+}
+.map-secc{
+ margin: 15% 0 2% 3%;
+}
+.map{
+  border: 1px solid white;
+  padding: 10px;
+}
+
+    /*------SECTION 5----------------*/
+
+    /*-----MODAL 1---------------*/
+    .modal-1{
+      text-align: center;
+    }
+    .user{
+      width: 40%;
+    }
+    .box-usuario{
+      width: 70%;
+      height: 200px;
+      background: #a4a5ad;
+      margin:0 15%;
+
+    }
+  .modal-content{
+    background: #3e9a81;
+  }
+    .modal-footer{
+      text-align: center;
+
+    }
+    .btn-user{
+      background: orange;
+      border: none;
+    }
